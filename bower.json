@@ -1,0 +1,33 @@
+{
+  "ignore": [
+    ".*",
+    "package.json",
+    "node_modules",
+    "src",
+    "tests",
+    "gulpfile.js",
+    "karma.conf.js"
+  ],
+  "main": "angular.cs.utils.cancellable.js",
+  "dependencies": {
+    "angular": "^1"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1"
+  },
+  "author": "Chunky Samurai <contact@chunkysamurai.com> (www.chunkysamurai.com)",
+  "name": "csCancellable",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "service",
+    "cancel",
+    "function"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chunkysamurai/csCancellable.git"
+  },
+  "description": "An angular service that extends functions with a cancel() function and provides a cancel.promise to work with $http",
+  "version": "0.0.1"
+}

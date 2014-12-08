@@ -1,0 +1,53 @@
+{
+  "name": "csCancellable",
+  "version": "0.0.1",
+  "description": "An angular service that extends functions with a cancel() function and provides a cancel.promise to work with $http",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3",
+    "gulp-util": "^3",
+    "gulp-rename": "^1",
+    "gulp-concat": "^2",
+    "gulp-ng-annotate": "^0",
+    "gulp-uglify": "^1",
+    "gulp-jshint": "^1",
+    "jshint-stylish": "^1",
+    "rimraf": "^2",
+    "gulp-plumber": "^0",
+    "gulp-header": "^1",
+    "gulp-bump": "^0",
+    "gulp-git": "^0",
+    "phantomjs": "^1",
+    "mocha": "^2",
+    "karma-mocha": "^0",
+    "karma": "^0",
+    "chai": "^1",
+    "karma-phantomjs-launcher": "^0",
+    "chai-as-promised": "^4",
+    "gulp-json-editor": "^2",
+    "run-sequence": "^1",
+    "gulp-karma": "^0",
+    "require-new": "^1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/karma start karma.conf.js",
+    "postinstall": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chunkysamurai/csCancellable.git"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "service",
+    "cancel",
+    "function"
+  ],
+  "author": "Chunky Samurai <contact@chunkysamurai.com> (www.chunkysamurai.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chunkysamurai/csCancellable/issues"
+  },
+  "homepage": "https://github.com/ChunkySamurai/csCancellable"
+}
